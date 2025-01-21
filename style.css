@@ -1,0 +1,100 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container Styling */
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header (Name and Role) */
+h1 {
+    font-size: 2.5em;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+.role {
+    font-size: 1.3em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Text and Preformatted Styling */
+pre {
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 10px 0;
+    white-space: pre-wrap;
+}
+
+.blue {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+/* Styling for Lists (Education, Experience) */
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Experience Section */
+pre p {
+    font-size: 1em;
+    color: #34495e;
+}
+
+/* Links Styling */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .role {
+        font-size: 1.2em;
+    }
+
+    pre {
+        font-size: 0.9em;
+    }
+}
